@@ -79,7 +79,7 @@ export default function Panel() {
           />
 
           {/* Features List (each feature can have bolded text via HTML) */}
-          <ul className="mb-6 space-y-2 min-h-[180px]">
+          <ul className="mb-6 space-y-2 min-h-[220px] md:min-h-[180px]">
             {plan.features.map((feature, idx) => (
               <li key={idx} className="flex items-start">
                 {/* Check icon */}
