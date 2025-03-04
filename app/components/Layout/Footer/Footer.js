@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
 
                 {/* Navigation Links */}
-                <nav className="flex flex-wrap items-center justify-center space-x-4 text-sm font-medium">
+                {/* <nav className="flex flex-wrap items-center justify-center space-x-4 text-sm font-medium">
                     <a href="#" className="hover:underline">
                         HOME
                     </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                     <a href="#" className="hover:underline">
                         TERMS
                     </a>
-                </nav>
+                </nav> */}
 
                 {/* Copyright & Designer Info */}
                 <div className="text-xs text-gray-500">

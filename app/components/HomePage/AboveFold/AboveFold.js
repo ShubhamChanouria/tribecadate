@@ -25,12 +25,10 @@ export default function AboveFold() {
             {/* Text Overlay */}
             <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
                 <h1 className="mb-4 max-w-2xl text-3xl font-semibold md:text-4xl">
-                    Helping you to find &lsquo;the one&rsquo;
+                Helping You Connect with the Exceptional
                 </h1>
-                <p className="max-w-xl text-base md:text-lg">
-                    Curating exclusive connections for distinguished individuals around the world.
-                    Soho Date Club, specialists in bringing together exceptional individuals of
-                    discerning taste.
+                <p className="max-w-2xl text-sm font-light md:text-lg">
+                Our club curates personal introductions between ambitious, handsome, and highly driven individuals, ensuring connections of substance, vision, and aligned values. Tribeca Date provides a refined experience tailored to the lifestyles and expectations of extraordinary entrepreneurs, delivering meaningful relationships among elite peers.
                 </p>
                 <div className="absolute bottom-0 left-0 right-0 z-20 md:flex items-center justify-center bg-black/50 backdrop-blur-md py-4">
                     <div className="grid grid-cols-2 md:flex flex-wrap items-center justify-center space-x-16 md:space-x-22 px-8 text-white">
