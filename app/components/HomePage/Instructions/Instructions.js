@@ -6,7 +6,7 @@ const Instructions = ({ onClick }) => {
         <div className=' md:w-[80%] my-12 mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div>
-                    <h3 className='text-subheading font-semibold '>Tribeca Date is New York's most exclusive network, bringing together accomplished, attractive young tech founders with winning personalities, seeking the perfect partner.
+                    <h3 className='text-subheading font-semibold '>Tribeca Date is New York{`'`}s most exclusive network, bringing together accomplished, attractive young tech founders with winning personalities, seeking the perfect partner.
                     </h3>
                     <p className='mt-8 text-body text-gray-500 font-light'>
                         Our white-glove, concierge-style service introduces you to extraordinary individuals who embody your ambition, vision, and values, ensuring you find nothing less than ‘The One.’ At Tribeca Date, exclusivity defines our approach. Unlike impersonal franchise organizations, our elite clientele enjoys being part of a carefully curated community, with bespoke attention and absolute discretion guaranteed. Our expert team meticulously manages every detail of your matchmaking journey, crafting an experience as unique and refined as you are. With a commitment to exceeding expectations, Tribeca Date transforms your search for meaningful connections into a luxurious and transformative endeavor.
@@ -31,7 +31,7 @@ const Instructions = ({ onClick }) => {
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center gap-8 mt-8'>
                 <h3 className='text-subheading font-semibold '>Are you Tribeca for Soho Date Club?</h3>
-                <PrimaryButton text='Discover more' className={"uppercase text-sm py-3.5 px-8 cursor-pointer hover:bg-black hover:text-white"} onClick={onClick} />
+                <PrimaryButton text='Discover more' className={"uppercase text-sm py-3.5 px-8 cursor-pointer hover:bg-black hover:text-white"} onClick={(e) => onClick()} />
             </div>
         </div>
     )
