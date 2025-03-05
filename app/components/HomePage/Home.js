@@ -5,7 +5,7 @@ import Instructions from './Instructions/Instructions'
 import Rate from './Rate/Rate'
 import HeroSection from './HeroSection/HeroSection'
 import AboveFold from './AboveFold/AboveFold'
-import FadeInSection from '../FadeInSection/FadeInSection'
+import FadeInSection from '../Modules/FadeInSection/FadeInSection'
 import Panel from '../Panel/Panel'
 const Home = () => {
     const otherSectionRef = useRef(null);
