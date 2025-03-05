@@ -7,7 +7,10 @@
   --text-heading: 30px;
   --text-subheading: 24px;
   --text-body: 16px;
-  
+  --text-body-mobile: 14px;
+  --text-subheading-mobile: 20px;
+  --text-heading-mobile: 25px; 
+
 }
 
 @theme inline {
@@ -17,7 +20,7 @@
   --text-heading: var(--text-heading);
   --text-subheading: var(--text-subheading);
   --text-body: var(--text-body);
+  --text-body-mobile: var(--text-body-mobile);
+  --text-subheading-mobile: var(--text-subheading-mobile);
+  --text-heading-mobile: var(--text-heading-mobile); 
 }
-
-
-

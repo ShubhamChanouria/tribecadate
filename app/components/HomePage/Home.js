@@ -33,7 +33,6 @@ const Home = () => {
                     <Panel />
                     </Container>
                 </FadeInSection>
-            
             <FadeInSection>
                 <HeroSection />
             </FadeInSection>

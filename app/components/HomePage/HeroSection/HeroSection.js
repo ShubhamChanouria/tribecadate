@@ -11,7 +11,7 @@ export default function HeroSection() {
 
             {/* Content Overlay */}
             <div className="flex h-full flex-col items-center justify-center px-4 text-center text-white">
-                <h2 className="mb-6 max-w-2xl text-2xl font-semibold md:text-3xl">
+                <h2 className="mb-6 max-w-2xl text-heading-mobile md:text-heading-mobile lg:text-heading font-semibold md:text-3xl">
                     Isn&apos;t it time to refine the search for your ultimate partner?
                 </h2>
                 <Link href="mailto:info@tribecadate.com"

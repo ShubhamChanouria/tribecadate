@@ -1,6 +1,5 @@
 // components/Footer.jsx
 
-import Image from 'next/image'
 import DynamicImage from '@/app/components/Modules/Image/DynamicImage'
 export default function Footer() {
     return (
@@ -8,8 +7,6 @@ export default function Footer() {
             <div className="mx-auto flex max-w-screen-xl flex-col items-center justify-center space-y-4 px-4 text-center">
                 {/* Logo / Brand */}
                 <div className="flex items-center space-x-2">
-                    {/* If you have an actual logo image, you can use <Image> from next/image */}
-                    {/* Example: <Image src="/soho-logo.png" alt="Soho Date Club Logo" width={120} height={40} /> */}
                     <span className="text-2xl font-bold italic">Tribeca Date Club</span>
                 </div>
 

@@ -55,7 +55,7 @@ export default function Panel() {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12 md:w-[60%] mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12 md:w-[90%] lg:w-[60%] mx-auto">
       {plans.map((plan, index) => (
         <div
           key={index}
@@ -79,7 +79,7 @@ export default function Panel() {
           />
 
           {/* Features List (each feature can have bolded text via HTML) */}
-          <ul className="mb-6 space-y-2 min-h-[220px] md:min-h-[180px]">
+          <ul className="mb-6 space-y-2 min-h-[220px] lg:min-h-[180px]">
             {plan.features.map((feature, idx) => (
               <li key={idx} className="flex items-start">
                 {/* Check icon */}
