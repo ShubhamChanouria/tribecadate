@@ -12,12 +12,12 @@ const Instructions = ({ onClick }) => {
                         Our white-glove, concierge-style service introduces you to extraordinary individuals who embody your ambition, vision, and values, ensuring you find nothing less than ‘The One.’ At Tribeca Date, exclusivity defines our approach. Unlike impersonal franchise organizations, our elite clientele enjoys being part of a carefully curated community, with bespoke attention and absolute discretion guaranteed. Our expert team meticulously manages every detail of your matchmaking journey, crafting an experience as unique and refined as you are. With a commitment to exceeding expectations, Tribeca Date transforms your search for meaningful connections into a luxurious and transformative endeavor.
                     </p>
                     <div className='mt-8'>
-                        <DynamicImage image={'https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/038c06bf-3ac7-4ee3-8c63-8273f0930f64/shutterstock_2251938397.jpg?format=2500w'} alt={'image1'} width={500} height={200} />
+                        <DynamicImage image={'/love/couple2.webp'} alt={'image1'} width={500} height={200} />
                     </div>
                 </div>
                 <div>
-                    <div className=''>
-                        <DynamicImage image={'https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1b878e79-81b0-4d5c-bc14-629046fd30b6/shutterstock_1862081374.jpg?format=2500w'} alt={'image1'} width={500} height={200} />
+                    <div className='hidden md:hidden lg:block'>
+                        <DynamicImage image={'/love/couple1.webp'} alt={'image1'} width={500} height={200} />
                     </div>
 
                     <p className='mt-8 text-xs md:text-body-mobile lg:text-body text-gray-500 font-light'>
@@ -27,6 +27,9 @@ const Instructions = ({ onClick }) => {
                     </p>
                     <h3 className='text-subheading-mobile mt-4 md:text-subheading-mobile lg:text-subheading font-semibold  '>This is the world’s most exclusive network, bringing together accomplished and attractive people with winning personalities, in search of the perfect partner.
                     </h3>
+                    <div className='block md:block lg:hidden mt-4'>
+                        <DynamicImage image={'/love/couple1.webp'} alt={'image1'} width={500} height={200} />
+                    </div>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center gap-8 mt-8'>

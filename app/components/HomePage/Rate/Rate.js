@@ -3,11 +3,11 @@ import React from 'react'
 const Rate = () => {
     const data = [
         {
-            title: '$25M',
-            description: 'Minimum Net Worth'
+            title: '$10M+',
+            description: 'Net Worth'
         },
         {
-            title: '<30',
+            title: '<35',
             description: 'Membership Criteria'
         },
         {
