@@ -15,7 +15,7 @@ export default function AboveFold() {
                 playsInline
                 preload="auto"
             >
-                <source src="/love/couple.mp4" type="video/mp4" /> 
+                <source src="/love/couple.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
@@ -54,19 +54,19 @@ export default function AboveFold() {
                                 className="object-contain"
                             />
                         </div>
-                       
+
                         <div className='flex justify-center'>
                             <DynamicImage
-                              image="/asseen/fox-40.svg"
-                                alt="fox-40"
-                                width={60}
-                                height={40}
+                                image="/asseen/ny.svg"
+                                alt="New York Times"
+                                width={150}
+                                height={120}
                                 className="object-contain"
                             />
                         </div>
                         <div className='flex justify-center'>
                             <DynamicImage
-                                  image="/asseen/NBC.svg"
+                                image="/asseen/NBC.svg"
                                 alt="NBC"
                                 width={60}
                                 height={40}
